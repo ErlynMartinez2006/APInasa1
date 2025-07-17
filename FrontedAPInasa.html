@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>NASA API Explorer</title>
+  <link rel="stylesheet" href="StyleAPInasa.css" />
+</head>
+<body>
+  <div class="banner">
+    <h1>Explora la API de la NASA</h1>
+    <div class="nav">
+      <button onclick="loadAPOD()">APOD</button>
+      <button onclick="loadDONKI()">DONKI</button>
+      <button onclick="loadNeo()">NeoWs</button>
+      <button onclick="loadEPIC()">EPIC</button>
+    </div>
+  </div>
+
+  <div class="content" id="content">
+    <h2 id="title"></h2>
+    <img id="image" src="" alt="" />
+    <p id="description"></p>
+  </div>
+
+  <script src="JavaAPInasa.js"></script>
+
+<p class="footer">Página creada por Erlyn Martinez.</p>
+
+</body>
+</html>
